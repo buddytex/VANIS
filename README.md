@@ -10,12 +10,11 @@ Simple robot project for camera, face, and person detection tests on Raspberry P
 - `person_detect_test.py` — person detection demo
 - `face_body_detect.py` — optional combined face+body detection
 
----
+--
+## 📸 Media
+
 ## 📸 Robot Image
 ![Robot](assets/robot_photo.jpg)
-
----
-## 📸 Media
 
 ## 📸 Test Media
 
