@@ -1,26 +1,15 @@
-# VANIS
-A completely useless project with absolutely no real-world purpose. Updated regularly for no reason other than to keep the green contribution squares happy.
+# 🤖 VANIS — Vision Test Robot
 
-# 🌀 The Useless Project
+Simple robot repo for camera, face, and person detection tests on Raspberry Pi / Windows.
 
-## 📌 About
-This project serves absolutely no practical purpose.  
-It exists purely for:
-- Practicing Git commits  
-- Feeding the GitHub contribution graph  
-- Pretending to be productive  
+## 📸 Test Media
+**▶️ Test Video:** [Watch here](https://your-video-link)  
+**🖼️ Test Picture:**  
+![Test Photo](assets/test_photo.jpg)
 
-## 🛠 Tech Stack
-- Whatever I feel like at the moment
-- Runs on Windows because... why not?
-- GitHub, because the cloud is just someone else’s computer
-
-## 📅 Update Frequency
-- Whenever I remember  
-- Or when the green squares start disappearing
-
-## 🚀 How to Run
-You don’t. Seriously, don’t.
-
-## 📜 License
-Do whatever you want. It’s useless anyway. yes
+## 🚀 Run Tests
+```bash
+python cam_test.py
+python face_test.py
+python person_detect_test.py
+# python face_body_detect.py
