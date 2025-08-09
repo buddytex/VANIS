@@ -1,15 +1,48 @@
 # 🤖 VANIS — Vision Test Robot
 
-Simple robot repo for camera, face, and person detection tests on Raspberry Pi / Windows.
+Simple robot project for camera, face, and person detection tests on Raspberry Pi and Windows.
+
+---
+
+## 📌 What It Does
+- `cam_test.py` — camera sanity check
+- `face_test.py` — face detection demo
+- `person_detect_test.py` — person detection demo
+- `face_body_detect.py` — optional combined face+body detection
+
+---
+
+## 📸 Media
 
 ## 📸 Test Media
-**▶️ Test Video:** [Watch here](https://your-video-link)  
-**🖼️ Test Picture:**  
+
+### 🎥 Test Videos (inline)
+<video src="assets/VID-20250809-WA0002.mp4" controls width="480"></video>  
+[Open video](assets/VID-20250809-WA0002.mp4)
+
+<video src="assets/VID-20250809-WA0003.mp4" controls width="480"></video>  
+[Open video](assets/VID-20250809-WA0003.mp4)
+
+<video src="assets/VID-20250809-WA0004.mp4" controls width="480"></video>  
+[Open video](assets/VID-20250809-WA0004.mp4)
+
+<video src="assets/VID-20250809-WA0005.mp4" controls width="480"></video>  
+[Open video](assets/VID-20250809-WA0005.mp4)
+
+<video src="assets/VID-20250809-WA0006.mp4" controls width="480"></video>  
+[Open video](assets/VID-20250809-WA0006.mp4)
+
+### 📷 Test Picture
 ![Test Photo](assets/test_photo.jpg)
 
-## 🚀 Run Tests
+---
+
+## 🚀 How to Run Tests
+
+### On Raspberry Pi / Ubuntu
 ```bash
-python cam_test.py
-python face_test.py
-python person_detect_test.py
-# python face_body_detect.py
+git clone https://github.com/buddytex/VANIS.git
+cd VANIS
+python3 -m venv .venv && source .venv/bin/activate
+pip install --upgrade pip
+pip install opencv-python numpy
