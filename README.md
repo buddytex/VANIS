@@ -23,6 +23,4 @@ It exists purely for:
 You don’t. Seriously, don’t.
 
 ## 📜 License
-Do whatever you want. It’s useless anyway.
-
-@naveen @jithin
+Do whatever you want. It’s useless anyway. yes
